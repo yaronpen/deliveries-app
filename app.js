@@ -35,8 +35,6 @@ app.get(`/deliveries/daily`, getDailyDeliveries);
 
 app.get(`/deliveries/weekly`, getWeeklyDeliveries);
 
-// app.get(`/deliveris/weekly`, weeklyDelivery);
-
 app.listen(PORT, () => {
   console.log(`listening at http://localhost:${PORT}`);
 })
