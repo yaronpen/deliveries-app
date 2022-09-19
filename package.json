@@ -1,0 +1,21 @@
+{
+  "name": "deliveries-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "node-fetch": "^3.2.10"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2"
+  }
+}
